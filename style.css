@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .anim-container{
@@ -8,7 +8,7 @@ body{
     transform: translate(-50%, 0);
     height: 100%;
     width: 100%;
-    overflow: hidden;
+  
     
 }
 
@@ -44,29 +44,31 @@ body{
     
 }
 
-.slidercss{
+.slider{
      -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
     width: 100%;
-    height: 10vh;
+    height: 50px;
     background: #d3d3d3;
 }
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 10vh;
-  background: #04AA6D;
+  width: 50px;
+  height: 50px;
+  background: rgb(0,0,255);
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 10vh;
-  background: #04AA6D;
+  width: 50px;
+  height: 50px;
+  background: rgb(0,0,255);
   cursor: pointer;
 }
 
 #demo{ color: transparent; }
+
+
 
